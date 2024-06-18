@@ -169,7 +169,7 @@ var LST_ic = LST_ic.toBands();
 var bandNames=LST_ic.bandNames();
 
 var bandNames2=bandNames;
-var index=ee.List.sequence(0, 364)
+var index=ee.List.sequence(0, 352)
     bandNames2=index.map(function(i){
       i=ee.Number(i);
       return bandNames2.set(i,ee.String(bandNames2.get(i)).slice(0,21)).get(i)});
