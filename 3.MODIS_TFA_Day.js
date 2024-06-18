@@ -149,7 +149,7 @@ var TFA_Images = LST_TFA.select('TFA')
   .iterate(function(img, all) {
       return ee.Image(all).addBands(img);
   }, ee.Image().select());
-  
+
 exports.TFA_Images = TFA_Images;
 exports.Assets_path = Assets_path;
 exports.Temperature_Band = Temperature_Band;
