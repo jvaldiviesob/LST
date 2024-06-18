@@ -26,10 +26,3 @@ Export.image.toAsset({
   region: Continous_LST_Night.geometria,
   crs: "EPSG:4326",
 });
-
-
-
-
-
-
-
